@@ -2,11 +2,13 @@
 .first-container {
   width: 1320px;
   height: 600px;
-  border: 2px solid red;
+
   margin: 0 auto;
   padding: 10px;
   background-image: url(../images/Banner\ Image.png);
   background-attachment: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 .first-container-title {
   display: flex;
@@ -23,6 +25,7 @@
 .first-container-title h1 {
   font-size: 72px;
   color: #ffffff;
+  text-align: center;
 }
 
 /* 2nd section strat */
@@ -59,4 +62,53 @@
 .second-section-img {
   width: 803px;
   height: 500px;
+}
+
+/* third section start */
+.third-container {
+  display: flex;
+  margin: 0 auto;
+  width: 1320px;
+  height: 600px;
+
+  border-radius: 5px;
+  margin-top: 90px;
+  background-image: url(../images/Vectorrr.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.left-section {
+  width: 50%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-section {
+  width: 50%;
+  height: 600px;
+}
+.left-section h1 {
+  font-size: 64px;
+  font-weight: 900px;
+  color: rgba(255, 255, 255);
+}
+.left-section p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: center;
+}
+.left-section > button {
+  font-weight: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400px;
+}
+#third-img {
+  width: 300.83px;
+  height: 400.66px;
+  margin-left: 120px;
+  margin-top: 100px;
 }
