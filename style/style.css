@@ -1,0 +1,62 @@
+/* 1st section start */
+.first-container {
+  width: 1320px;
+  height: 600px;
+  border: 2px solid red;
+  margin: 0 auto;
+  padding: 10px;
+  background-image: url(../images/Banner\ Image.png);
+  background-attachment: 100%;
+}
+.first-container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.first-container-title p {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: -30px;
+}
+.first-container-title h1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+
+/* 2nd section strat */
+.second-section-offer {
+  width: 805px;
+  height: 806px;
+
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.second-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.second-section-title h1 {
+  font-size: 88px;
+  color: #ff0000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.second-section-title p {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 4px;
+}
+.second-section-title h3 {
+  font-size: 48px;
+  color: #070211;
+  margin-bottom: 4px;
+}
+.second-section-img {
+  width: 803px;
+  height: 500px;
+}
