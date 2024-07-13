@@ -112,3 +112,26 @@
   margin-left: 120px;
   margin-top: 100px;
 }
+/* fourth section start */
+.fourth-section {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  border: 1px solid white;
+  margin-top: 100px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.fourth-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600px;
+  margin-top: 100px;
+}
+.fourth-section-title > h3 > span {
+  color: rgb(255, 0, 0);
+  margin-top: 50px;
+}
