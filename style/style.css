@@ -252,3 +252,44 @@
   margin-bottom: 350px;
   margin-left: 150px;
 }
+
+/* 7 section start */
+.seven-container {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+
+  margin-top: 100px;
+}
+.seven-section-title {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 20px;
+}
+.seven-section-title h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.seven-section-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+}
+.seven-section-title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  margin-top: 1px;
+}
+
+.seven-section-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20px;
+  padding: 10px;
+}
