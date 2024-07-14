@@ -205,3 +205,50 @@
   border-radius: 50%;
   padding: 105x;
 }
+
+/* sixth section start */
+
+.sixth-container {
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+
+  margin-top: 100px;
+}
+.sixth-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sixth-section-title h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(7, 2, 17);
+}
+.sixth-section-title h1 {
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+}
+.sixth-section-title p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+}
+#Holi {
+  color: rgb(255, 0, 0);
+}
+#rectangle {
+  margin-top: 420px;
+  position: absolute;
+}
+#gr75 {
+  position: relative;
+}
+#gr44 {
+  position: relative;
+  margin-bottom: 350px;
+  margin-left: 150px;
+}
